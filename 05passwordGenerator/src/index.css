@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.copy-btn {
+  background-color: blue;
+}
+
+.copy-btn:hover {
+  background-color: rgba(6, 6, 228, 0.955);
+}
