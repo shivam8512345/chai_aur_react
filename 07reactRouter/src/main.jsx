@@ -10,6 +10,7 @@ import Home from './components/Home/Home.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Github, { githubInfoLoader } from './components/Github/Github.jsx'
 import User from './components/User/User.jsx'
+import Login from './components/Login/Login.jsx'
 
 
 // const router = createBrowserRouter([{
@@ -42,7 +43,9 @@ const router = createBrowserRouter(
         loader={githubInfoLoader}
         path='github'
         element={<Github />} />
+      <Route path='login' element={<Login />} />
     </Route>
+
   )
 );
 
